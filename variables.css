@@ -1,0 +1,49 @@
+:root {
+    /* Font-size */
+    --font-size-sm: 0.8125rem; /* 13px */
+    --font-size-md: 1rem; /* 16px */
+    --font-size-lg: 1.1875rem; /* 19px */
+    --font-size-h3: 1.4375rem; /* 23px */
+    --font-size-h2: 1.75rem; /* 28px */
+    --font-size-h1: 2.0625rem; /* 33px */
+
+    /* Spacing that will be used for margin and padding following Fibonacci sequence */
+    --space-xxs:  calc(0.25 * 1rem); /* 4px */
+    --space-xs:   calc(0.5 * 1rem); /* 8px */
+    --space-sm:   calc(0.75 * 1rem); /* 12px */
+    --space-md:   calc(1.25 * 1rem); /* 20px */
+    --space-lg:   calc(2 * 1rem); /* 32px */
+    --space-xl:   calc(3.25 * 1rem); /* 52px */
+    --space-xxl:  calc(5.25 * 1rem); /* 84px */
+
+    /* Border Radius */
+    --border-radius-sm: 0.25rem;
+    --border-radius-base: 0.5rem;
+
+    /* Background Colors */
+    --color-primary-background: #f5f7fa;
+    --color-secondary-background: #dceeff;
+    --color-tertiary-background: #f2f4f7;
+    
+     /* Text Colors */
+     --color-text-primary: #333333;
+     --color-text-secondary: #555555;
+     --color-text-white: #f1f3f5;
+     --color-text-link: #0056b3; 
+     --color-text-link-hover: #004494;
+     --color-text-danger: #c82333;
+     
+     /* Button Colors */
+     --color-button-primary: #007bff;
+     --color-button-primary-hover: #0056b3;
+     --color-button-secondary: #6c757d;
+     --color-button-secondary-hover: #5a6268;
+
+    /* Border Colors*/
+    --color-border: #e0e6ed;
+
+    /* Box Shadow */
+    --box-shadow-sm: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    --box-shadow-md: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+    --box-shadow-lg: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;  
+}

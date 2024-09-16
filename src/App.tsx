@@ -1,7 +1,9 @@
+import HomePage from "./pages/homepage/HomePage";
+
 function App() {
 	return (
 		<>
-			<div>So little yet so much</div>
+			<HomePage />
 		</>
 	);
 }

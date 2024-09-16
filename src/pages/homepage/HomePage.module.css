@@ -1,0 +1,95 @@
+.mainContainer {
+    width: 100%;
+    max-width: 1200px;
+    min-height: 100vh;
+    border: 1px var(--color-border) solid;
+    margin : 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    align-content: flex-start;
+}
+
+.testContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 8rem;
+    width: 8rem;
+    min-width: 8rem;
+    border: 1px var(--color-border) solid;
+    word-wrap: break-word;
+}
+
+.testContainerOne {
+    composes: testContainer;
+    background-color: var(--color-primary-background);
+    box-shadow: var(--box-shadow-sm);
+    border: none;
+}
+
+.testContainerTwo {
+    composes: testContainer;
+    background-color: var(--color-secondary-background);
+    box-shadow: var(--box-shadow-md);
+    border: none;
+}
+
+.testContainerThree {
+    composes: testContainer;
+    background-color: var(--color-text-primary);
+    box-shadow: var(--box-shadow-lg);
+    border: none;
+}
+
+.testContainerFour {
+    composes: testContainer;
+    background-color: var(--color-text-secondary);
+}
+
+.testContainerFive {
+    composes: testContainer;
+    background-color: var(--color-text-white);
+}
+
+.testContainerSix {
+    composes: testContainer;
+    background-color: var(--color-text-link);
+}
+
+.testContainerSeven {
+    composes: testContainer;
+    background-color: var(--color-text-link-hover);
+}
+
+.testContainerEight {
+    composes: testContainer;
+    background-color: var(--color-text-danger);
+}
+
+.testContainerNine {
+    composes: testContainer;
+    background-color: var(--color-button-primary);
+}
+
+.testContainerTen {
+    composes: testContainer;
+    background-color: var(--color-button-primary-hover);
+}
+
+.testContainerEleven {
+    composes: testContainer;
+    background-color: var(--color-button-secondary);
+}
+
+.testContainerTwelve {
+    composes: testContainer;
+    background-color: var(--color-button-secondary-hover);
+}
+
+.testContainerThirteen {
+    composes: testContainer;
+    background-color: var(--color-tertiary-background);
+}
